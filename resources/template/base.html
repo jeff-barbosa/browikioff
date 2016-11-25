@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <title>bROWikiOff - {{ .Title }}</title>
+    <link rel="stylesheet" href="/w/css/mediawiki.css" />
+    <link rel="stylesheet" href="/w/css/browikioff.css" />
+    <script src="/w/js/script.js"></script>
+  </head>
+
+  <body>
+
+    <div class="bwo-website">
+      <div class="bwo-header">
+
+        <div style="padding: 4px; overflow: auto;">
+
+          <div style="float: left; width: 70%;">
+          <a href="Página principal" style="font-size: 26pt;">bROWikiOff</a>
+          <small><a href="http://www.github.com/jefferson-dab/browikioff" target="_blank">Github</a></small>
+          </div>
+
+          <div style="float: left; padding: 10px;">
+            <form>
+              <input type="text" name="keyword" size="20" placeholder="Pesquisar" onkeyup="search(this.value)" />
+            </form>
+            <div id="bwo-searchbox">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="bwo-content">
+        <h1 class="firstHeading">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
+    </div>
+
+  </body>
+</html>

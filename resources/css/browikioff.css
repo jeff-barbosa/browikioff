@@ -1,0 +1,40 @@
+#content, .firstHeading {
+  background-color: white;
+}
+
+.bwo-header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: #EA4335;
+  z-index: 10000;
+}
+
+.bwo-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.bwo-website {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.bwo-content {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.bwo-header input {
+  border-radius: 6px;
+  padding: 3px;
+}
+
+#bwo-searchbox {
+  background-color: white; 
+  border:1px solid gray;
+  display: none;
+}
+#bwo-searchbox a {
+  color: black;
+}
